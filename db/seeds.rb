@@ -8,7 +8,7 @@
 
 puts "Creating fake articles..."
 
-50.times do
+10.times do
   post = Article.new(
     title:    Faker::SiliconValley.company,
     content:  Faker::SiliconValley.motto
